@@ -67,6 +67,8 @@ penaltiBtn.addEventListener('click', () => {
 	}
 });
 
+//início do algoritmo de resultado de jogo
+
 let jogo = [];
 let min = Array(540).fill('nada');
 for (let i = 0; i < min.length; i++) {
